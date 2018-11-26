@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Guestbook Page - Scott Davis</title>
+<meta name="Keywords" content="Scott Davis, Final Project, Web Design"/>
+<meta name="Description" content="Final Project for CIS241"/>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../css/myStyle.css">
+<title>Guest Book</title>
+<style>
+.topnav a:hover
+{
+background-color: red;
+}
+</style>
 </head>
 <body>
-
-  <h1>Davis guestbook page, under construction</h1>
-  </body>
-  </html>
-  
+<header>
+<img class="header" src="../images/header.png" alt="header graphic"/>
+<div class="topnav">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="interests.html">Interests</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="reflections.html">Reflections</a></li>
+<li><a href="guestbook.html">Guest-book</a></li>
+</ul>
+</div>
+</header>
+<h1 class="intro">My Guest Book</h1>
+<main>	
+<form class="intro"
+ method="post"
+ action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="42"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="41"/>
+<br/>
+<br/>
+What country do you live in? <input type="text" name="Country" size="30"/>
+<br/>
+<br/>
+What is your age group?
+<br/>
+<input type="radio" name="AgeGroup" value="Under 18" checked="checked"/>Under 18<br/>
+<input type="radio" name="AgeGroup" value="18-30"/>18-30<br/>
+<input type="radio" name="AgeGroup" value="31-45"/>31-45<br/>
+<input type="radio" name="AgeGroup" value="46-64"/>46-64<br/>
+<input type="radio" name="AgeGroup" value="Very Old"/>Very Old
+<br/>
+<br/>
+Should I add you to my mailing list?
+<input type="checkbox" name="MailingList"/> 
+<br/>
+<br/>
+What web technologies are you interested in? (choose all that apply):
+<br/>
+<br/>
+<select name="tech" multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+How did you find my website? <br/>
+<select name="Find">
+<option>Choose One</option>
+<option>I'm a friend</option>
+<option>A friend directed me here</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+<input type="submit"/> 
+<input type="reset"/>
+</form>
+<hr/>
+</main>
+<div class="topnav">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="interests.html">Interests</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="reflections.html">Reflections</a></li>
+<li><a href="guestbook.html">Guest-book</a></li>
+</ul>
+</div>
+</body>
+</html>
