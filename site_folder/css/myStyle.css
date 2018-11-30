@@ -1,10 +1,20 @@
 body {
-/* background-color: lightblue; */
-/* color: purple; */
-/* background-image: url("../images/tree.jpg"); */
-/* background-position: center; */
+font-family: helvetica-light;
+font-size:1em;
+padding-bottom: 8px;
+background-image: url("../images/blueSky.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: lightblue;
 width: 960px;
 margin: 20px auto;
+color: black;
+}
+
+p 
+{
+font-size: 1.5em;
 }
 
 nav 
@@ -12,24 +22,10 @@ nav
 float: left;
 width: 340px;
 }
-main
-{
-/* position: relative; */
-/* float: left; */
-/* width: 620px; */
-text-align: justify;
 
-}
-
-h1.intro
+.intro
 {
 text-align: center;
-}
-
-ul.navigation
-{
-font-size: 1.25em;
-list-style-type: none;
 }
 
 ul.interests
@@ -43,69 +39,21 @@ font-size: 2em;
 {
 height: 4em;
 background-color: darkblue;
-color: white;
 }
+
 .topnav li
 { 
-
 display: inline;
-
-
 }
 
-.topnav a 
+.topnav li a 
 {
-color: white;
+color: yellow;
 text-decoration: none;
-text-align: center;
 display: block;
 padding: 20px;
 float: left;
 }
- 
-/* .topnav ul
- {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topnav li {
-    float: left;
-}
-
-.topnav li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
-
-/* 
-.topnav li
-{
-width: 100%;
-
-float: left;
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-.topnav a 
-{
-display: block;
-padding: 8px;
-/* background-color: black; */
-text-decoration: none;
-} */
-
- 
-
 
 table 
 {
@@ -136,6 +84,5 @@ float: right;
 img.item
 {
 float: left;
-/* width: 3%; */
 }
 

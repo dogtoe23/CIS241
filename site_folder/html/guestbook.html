@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <meta name="Keywords" content="Scott Davis, Final Project, Web Design"/>
 <meta name="Description" content="Final Project for CIS241"/>
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="../css/myStyle.css">
 <title>Guest Book</title>
+<style>
+.FormMailLink{
+float: right;
+}
+.topnav a:hover
+{
+background-color: red;
+}
+</style>
 </head>
-
 <body>
 <header>
-<a href="home.html"><img class="header" src="../images/header.png" alt="header graphic"/></a>
+<a id="head" href="home.html"><img class="header" src="../images/header.png" alt="header graphic"/></a>
 <div class="topnav">
 <ul>
 <li><a href="home.html">Home</a></li>
@@ -22,12 +29,9 @@
 </ul>
 </div>
 </header>
-
 <h1 class="intro">My Guest Book</h1>
 <main>	
-<form class="intro"
- method="post"
- action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+<form class="intro" method="POST" action="https://fp1.formmail.com/cgi-bin/fm192">
 Enter Your Name: <input type="text" name="Name" size="42"/>
 <br/>
 <br/>
@@ -83,7 +87,9 @@ Enter your message here.
 <br/>
 <input type="submit"/> 
 <input type="reset"/>
-
+<input type="hidden" name="_pid" value="154632">
+<input type="hidden" name="_fid" value="2BPQP5Q4">
+<input type="hidden" name="recipient" value="S.DAVIS1234@edmail.edcc.edu">
 </form>
 <hr/>
 </main>
@@ -94,7 +100,11 @@ Enter your message here.
 <li><a href="resume.html">Resume</a></li>
 <li><a href="reflections.html">Reflections</a></li>
 <li><a href="guestbook.html">Guest-book</a></li>
+<li><a href="#head">Top Of Page</a></li>
 </ul>
 </div>
+
+
+<a class="FormMailLink" href="http://www.formmail.com/cgi-bin/webscr"><img src="http://www.formmail.com/images/linking/fm_88x31.gif" width=88 height=31 border=0></a>
 </body>
 </html>
