@@ -7,15 +7,26 @@
 <link rel="stylesheet" href="../css/myStyle.css">	
 <title>Interests Page - Scott Davis</title>
 <style>
+#dogs
+{
+width: 3%;
+}
+#music{
+width: 1.2%;
+}
+#computer 
+{
+width: 3%;
+}
+#peace 
+{
+width: 3%;
+}
 h2
 {
-font-size: 1.75em;
+<!-- font-size: 1.75em; -->
 }
-.interestpic
-{
-float: right;
-width: 30%;
-}
+
 .topnav a:hover
 {
 background-color: red;
@@ -26,7 +37,7 @@ background-color: red;
 <header>
 <a id="head" href="home.html"><img class="header" src="../images/header.png" alt="header graphic"/></a>
 <div class="topnav">
-<ul float>
+<ul>
 <li><a href="home.html">Home</a></li>
 <li><a href="interests.html">Interests</a></li>
 <li><a href="resume.html">Resume</a></li>
@@ -39,12 +50,13 @@ background-color: red;
   <h1 class="intro">Scott T. Davis - Edmonds Community College - Web Design Student</h1>
 <main>
 <h1 class="intro">My Interests</h1>
-<h2><image class="interestpic" src="../images/shuSmileBright.jpg" alt="My Dog"/>Things I enjoy and care about the most:</h2>
+<img src="../images/shuSmileBright.jpg" alt="My Dog" class="interestpic">
+<h2>Things I enjoy and care about the most:</h2>
 <ul class="interests">
-<li><a href="https://www.dogbreedinfo.com/miniatureaustralianshepherd.htm" target="_blank">Dogs<img class="item" width="3%" src="../images/dogs.png" alt="dog"></a></li>
-<li>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Music" target="_blank">Music<img class="item" width="1.2%" src="../images/music.svg" alt="music"></a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Computers<img class="item" width="3%" src="../images/computer.svg" alt="computers"></a></li>
-<li><a href="http://www.sharewheel.org/" target="_blank">Activism<img class="item" width="3%" src="../images/peaceSign.png" alt="activism"></a></li>
+<li><a href="https://www.dogbreedinfo.com/miniatureaustralianshepherd.htm" target="_blank">Dogs<img id="dogs" class="item" src="../images/dogs.png" alt="dog"></a></li>
+<li>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Music" target="_blank">Music<img id="music" class="item" src="../images/music.svg" alt="music"></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Computers<img id="computer" class="item" src="../images/computer.svg" alt="computers"></a></li>
+<li><a href="http://www.sharewheel.org/" target="_blank">Activism<img id="peace" class="item" src="../images/peaceSign.png" alt="activism"></a></li>
 </ul>
 <hr/>
 </main>

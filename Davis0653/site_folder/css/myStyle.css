@@ -1,20 +1,25 @@
 body {
-font-family: helvetica-light;
-font-size:1em;
-padding-bottom: 8px;
+font-family: archivo, helvetica-light, san-serif;
+
+padding-bottom: 0px;
 background-image: url("../images/blueSky.gif");
+background-size: 100%;
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
 background-color: lightblue;
 width: 960px;
-margin: 20px auto;
+margin: auto;
 color: black;
+letter-spacing: .035em;
+font-size: 1em;
+line-height: 1.2;
 }
 
 p 
 {
-font-size: 1.5em;
+text-align: justify;
+line-height: 1.5;
 }
 
 nav 
@@ -28,7 +33,7 @@ width: 340px;
 text-align: center;
 }
 
-ul.interests
+.interests
 {
 list-style-type: none;
 display: block;
@@ -51,38 +56,48 @@ display: inline;
 color: yellow;
 text-decoration: none;
 display: block;
-padding: 20px;
 float: left;
 }
 
 table 
 {
 width: 100%;
-min-height: 900px;
-padding: 0;
 }
 
 td
 {
 color: black;
-font-size: 1.25em
+font-size: 1.25em;
 padding: 0;
 }
 
-th
-color: blue;
-font-size:1.5em
-padding: 0;
-}
-
-img.header
-{
-width: 50%;
-float: right;
-}
 
 img.item
 {
 float: left;
 }
 
+.RT
+{
+font-size:1.5em;
+padding-bottom: .75em;
+}
+
+.RH
+{
+font-size:1.25em;
+padding-bottom:.75em;
+}
+
+span.LH
+{
+font-size: 1.25;
+padding-top: 2em;
+padding-bottom: 2em;
+font-weight: bold;
+}
+.interestpic
+{
+float: right;
+width: 30%;
+}
