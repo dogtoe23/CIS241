@@ -1,6 +1,5 @@
 body {
 font-family: archivo, helvetica-light, san-serif;
-
 padding-bottom: 0px;
 background-image: url("../images/blueSky.gif");
 background-size: 100%;
@@ -56,6 +55,7 @@ display: inline;
 color: yellow;
 text-decoration: none;
 display: block;
+padding: 20px;
 float: left;
 }
 
@@ -70,7 +70,6 @@ color: black;
 font-size: 1.25em;
 padding: 0;
 }
-
 
 img.item
 {
@@ -96,6 +95,7 @@ padding-top: 2em;
 padding-bottom: 2em;
 font-weight: bold;
 }
+
 .interestpic
 {
 float: right;
