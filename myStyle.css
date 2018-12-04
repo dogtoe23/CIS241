@@ -1,0 +1,103 @@
+body {
+font-family: archivo, helvetica-light, san-serif;
+padding-bottom: 0px;
+background-image: url("../images/blueSky.gif");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: lightblue;
+width: 960px;
+margin: auto;
+color: black;
+letter-spacing: .035em;
+font-size: 1em;
+line-height: 1.2;
+}
+
+p 
+{
+text-align: left;
+line-height: 1.5;
+}
+
+nav 
+{
+float: left;
+width: 340px;
+}
+
+.intro
+{
+text-align: center;
+}
+
+.interests
+{
+list-style-type: none;
+display: block;
+font-size: 2em;
+}
+
+.topnav
+{
+height: 4em;
+background-color: darkblue;
+}
+
+.topnav li
+{ 
+display: inline;
+}
+
+.topnav li a 
+{
+color: yellow;
+text-decoration: none;
+display: block;
+padding: 20px;
+float: left;
+}
+
+table 
+{
+width: 100%;
+}
+
+td
+{
+color: black;
+font-size: 1.25em;
+padding: 0;
+}
+
+img.item
+{
+float: left;
+}
+
+.RT
+{
+font-size:1.5em;
+padding-bottom: .75em;
+}
+
+.RH
+{
+font-size:1.25em;
+padding-bottom:.75em;
+}
+
+span.LH
+{
+font-size: 1.25;
+padding-top: 2em;
+padding-bottom: 2em;
+font-weight: bold;
+}
+
+.interestpic
+{
+float: right;
+width: 30%;
+}
